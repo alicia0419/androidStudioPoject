@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView10"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/roundedCornersImageView"
+                app:srcCompat="@drawable/bread1"
+                app:strokeColor="#FFE083"
+                app:strokeWidth="10dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="너티 크루아상"
+                android:textColor="#171516"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="달콤하고 고소한 견과류가 토핑된 발효버터 풍미의 바삭하고 촉촉한 식감의 정통 크루아상입니다."
+                android:textColor="#171516"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#171516"
+                android:text="4,900원" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="3dp"
+                android:background="#a0a0a0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:id="@+id/checkBox24"
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="데움"
+                    android:textColor="#171516"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox25"
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="데우지 않음"
+                    android:textColor="#171516"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="※ 데움 여부는 빵 종류에만 선택해\n   주세요!"
+                    android:textSize="25dp"
+                    android:textColor="#DC2543"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="(스콘, 파이, 우리 단호박 보늬밤 브레드, 한 입에\n 쏙 치즈 꿀 볼 제외)"
+                    android:textSize="20dp"
+                    android:textColor="#DC2543"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="수량"
+                    android:textColor="#171516"
+                    android:textSize="33dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="+"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="0"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="-"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="포장 옵션"
+                android:textColor="#171516"
+                android:textSize="33dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="매장"
+                android:textColor="#171516"
+                android:textSize="30dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="포장"
+                android:textColor="#171516"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text=" "
+                android:textColor="#DC2543"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="#6BB66E"
+                    android:text="장바구니"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="#6BB66E"
+                    android:text="결제하기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck,TextContrastCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

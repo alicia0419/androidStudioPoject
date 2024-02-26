@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25792975947",
+    "project_id": "coffee-38c29",
+    "storage_bucket": "coffee-38c29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25792975947:android:031f29df6b38b0af9ee9ce",
+        "android_client_info": {
+          "package_name": "org.techtown.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25792975947-c4vnclerlbhgtkoeuko6gub96022phsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB80j6fDxSqJiY_rYhmjlBpqMdBuaSb0dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25792975947-c4vnclerlbhgtkoeuko6gub96022phsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
